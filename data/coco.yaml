@@ -1,0 +1,24 @@
+# train and val datasets (image directory or *.txt file with image paths)
+train: fixed_train_set.txt  # 118k images
+val: fixed_test_set.txt   # 5k images
+test: fixed_test_set.txt   # 20k images for submission to https://competitions.codalab.org/competitions/20794
+
+# number of classes
+nc: 13
+
+# class names
+names: [
+        'short_sleeved_shirt',
+        'long_sleeved_shirt',
+        'short_sleeved_outwear',
+        'long_sleeved_outwear',
+        'vest', 
+        'sling',
+        'shorts',
+        'trousers',
+        'skirt',
+        'short_sleeved_dress',
+        'long_sleeved_dress',
+        'vest_dress',
+        'sling_dress'
+        ]
